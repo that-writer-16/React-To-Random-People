@@ -1,0 +1,50 @@
+.usersBox{
+  padding: 10px;
+  border: inset 5px #918EF4;
+  margin: 5px;
+  text-align: center;
+  background-color: #222;
+  color: #918EF4;
+}
+.personBox{
+  padding: 10px;
+  border: inset 5px #918EF4;
+  margin: 5px;
+  width: 210px;
+  text-align: center;
+  background-color: #222;
+  color: #918EF4;
+
+}
+.personBox:hover{
+  background-color: black;
+  border: outset 5px #918EF4;
+  cursor: pointer;
+}
+html{
+  background-color: #000;
+  color: #7EE8FA;
+}
+#filter{
+  display: flex;  
+  align-items: center;
+}
+.filters{
+  margin: 10px 5px;
+  align-self: center;
+}
+p{
+  margin: 15px;
+  font-size: 20px;
+}
+#peeps{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+h1{
+  text-align: center;
+}
+.info{
+  color: #7EE8FA;
+}
